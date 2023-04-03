@@ -26,5 +26,8 @@
     "webpack": "^5.76.2",
     "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^4.13.1"
+  },
+  "dependencies": {
+    "country-code-lookup": "^0.0.22"
   }
 }
