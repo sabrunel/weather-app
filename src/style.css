@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(assets/billy-williams-8wz1Q4Q_XAg-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100dvh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100dvw;
+}
+
+.search-bar {
+    max-width: 30rem;
+    margin: 0 auto;
+    padding: 2.5rem 2rem;
+}
+
+form  {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+input {
+    font-family: inherit;
+    padding: 1rem 1.5rem;
+    border: 0;
+}
+
+input[type="text"] {
+    background-color: transparent;
+    flex-grow: 1;
+    opacity: 1;
+    color: white;
+}
+
+input[type="image"] {
+    height: 60px;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+.content {
+    width: 25rem;
+    padding: 2rem 1.5rem;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.main-widget p {
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+.secondary-widget {
+    width: 100%;
+    padding: 1.5rem 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+}
+
+.label  {
+    font-weight: 300;
+    font-size: 1em;
+}

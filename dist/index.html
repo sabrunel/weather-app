@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <script src="index.js" defer></script>
-    <title>Weather App</title>
-<script defer src="main-df9ce033c2b36651196b.js"></script></head>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+<script defer src="main-f2605fff52729fce8493.js"></script></head>
 <body>
     <header>
-        <form action="">
-            <input type="text" placeholder="Enter a city" id="search-txt">
-            <input type="submit" value="Search" id="search-btn">
-        </form>
+        <div class="search-bar">
+            <form action="">
+                <input type="text" placeholder="Enter a city" id="search-txt">
+                <input type="image" src="search.png" alt="Search" id="search-btn">
+            </form>
+        </div>
         <p id="error-txt"></p>
     </header>
     <main>

@@ -12,6 +12,7 @@ export class Controller {
             this.model = new Model(query);
             this.view.clearUserInput();
             this.view.clearErrorText();
+            this.view.clearContent();
 
             try {
                 await this.model.getData();
